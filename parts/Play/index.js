@@ -7,7 +7,7 @@ const Play = ({ href }) => (
       <AnchorButton
         anchorProps={{
           href,
-          target: "_blank",
+          // target: "_blank",
           rel: "noopener noreferrer",
         }}
         buttonProps={{

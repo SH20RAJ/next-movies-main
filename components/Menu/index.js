@@ -8,6 +8,7 @@ import MenuItemLink from './MenuItemLink';
 import TMDBMark from 'components/TMDBMark';
 import LINKS from 'utils/constants/links';
 import QUERY_PARAMS from 'utils/constants/query-params';
+import Link from 'next/link';
 
 const renderStaticCategories = (staticCategories, selectedMenuItemName, closeMenu = null) => {
   const menuItemLinks = staticCategories.map(staticCategory => (
@@ -68,6 +69,12 @@ const Menu = ({
         <SectionHeading>Genres</SectionHeading>
         {renderGenres(genres, selectedMenuItemName, closeMenu)}
         <TMDBMark className='tmdb-mark' />
+        <ul className=' box '>
+          <Link href="/links/privacy"><li>Privacy Policy</li></Link>
+          <Link href="/links/about"><li>About US</li></Link>
+          <Link href="/links/tos"><li>Terms of Service</li></Link>
+          <Link href="/links/contact"><li>Contact US</li></Link>
+        </ul>
       </nav>
       <style jsx>{`
         :global(.copyright) {

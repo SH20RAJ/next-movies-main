@@ -4,7 +4,7 @@ import AdSectionWrapper from 'parts/AdSectionWrapper';
 import Website from 'parts/Website';
 import Imdb from 'parts/Imdb';
 import Trailer from './Trailer';
-import Play from 'parts/Play';
+// import Play from 'parts/Play';
 
 const MovieAdSection = ({
   websiteUrl,

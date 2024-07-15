@@ -124,6 +124,14 @@ export default css.global`
     -moz-osx-font-smoothing: grayscale;
   }
 
+  .box {
+    font-size: 1.6rem;
+    padding: 2rem;
+    margin: 2rem 0;
+    // border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
   html {
     font-size: 62.5%; // 1rem = 10px
     box-sizing: border-box;

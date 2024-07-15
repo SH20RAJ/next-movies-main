@@ -20,7 +20,7 @@ class MyDocument extends Document {
           <meta name='supported-color-schemes' content='dark light' />
           <meta name='color-scheme' content='dark light' />
           <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1828915420581549"
-     crossorigin="anonymous"></script>
+     crossOrigin="anonymous"></script>
           {/**
            * MEMO: inspired by https://web.dev/prefers-color-scheme/#activating-dark-mode-in-the-operating-system.
            * for now we take the approach https://github.com/GoogleChromeLabs/dark-mode-toggle#-using-a-css-class-that-you-toggle
